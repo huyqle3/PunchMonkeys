@@ -28,6 +28,7 @@ public class FileController : MonoBehaviour {
         // TextAsset textAsset = Resources.Load("SampleText") as TextAsset;
         Text fileInputTextComponent = fileInputText.GetComponent<Text>();
         fileInputTextComponent.text = File.ReadAllText(path);
+        fileInputTextComponent.text = fileInputTextComponent.text.Substring(0, fileInputTextComponent.text.LastIndexOf("\r\n"));
     }
 
     /// <summary>
@@ -54,6 +55,5 @@ public class FileController : MonoBehaviour {
         List<string> lines = new List<string>(File.ReadAllLines(filepath));
 
         File.WriteAllLines(filepath, lines.GetRange(0, lines.Count - 1).ToArray());
-
     }
 }
