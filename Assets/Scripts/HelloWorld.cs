@@ -4,12 +4,16 @@ using UnityEngine;
 using Leap.Unity;
 
 public class HelloWorld : MonoBehaviour {
+    // This file contains experiments and testing by Leo.
+    // The project is not dependent on this script.
     public GameObject myCamera;
     public GameObject myHands;
-   // public HandMod
+
+    // public HandMod
 	// Use this for initialization
 	void Start () {
         Debug.Log("hello world from Liao on Start()");
+
         // Wrong code: it means this->GetComponent <>, not searching from top level!
         // myCamera = GetComponent<Camera>();
         myCamera = GameObject.Find("Camera");
@@ -18,7 +22,6 @@ public class HelloWorld : MonoBehaviour {
         {
             Debug.Log("Found the camera");
             // myHands=myCamera.GetComponent<HandModel>();
-    
         }
         else
         {
