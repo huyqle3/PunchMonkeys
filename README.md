@@ -9,7 +9,7 @@ get programmers standup and punch a virtual keyboard in their virtual view.
 
 Programmers can load a file, punch the keys on the keyboard, and save!
 
-### Development environment
+### Development Environment
 
 Hardware
 * [Leap Motion Controller](https://store-us.leapmotion.com/products/leap-motion-controller)
@@ -20,7 +20,7 @@ Software
 
 Optional
 * [Bash on Ubuntu on Windows 10](https://www.slothparadise.com/setup-bash-windows-10-developers-ultimate-setup)
-* ConEmu - [ConEmu](https://conemu.github.io) is used to open Bash with tabs on windows.
+* [ConEmu](https://conemu.github.io) can be used to open Bash with tabs on Windows.
 
 References
 * [https://api.leapmotion.com/documentation/csharp/examples/Unity_Examples.html](https://api.leapmotion.com/documentation/csharp/examples/Unity_Examples.html)
@@ -34,5 +34,5 @@ Originally, we wanted to implement the usage of the HoloLens to be able to rotat
 - You can hit the Play button at the top, load a file, start punching the keys in front of you, and type while exercising!
 - Don't forget to save the file!
 
-![Demo Preview 1](https://raw.githubusercontent.com/huyle333/PunchMonkeys/master/public/Images/DemoPreview1.png "Demo Preview 1")
-![Demo Preview 2](https://raw.githubusercontent.com/huyle333/PunchMonkeys/master/public/Images/DemoPreview2.png "Demo Preview 2")
+![Demo Preview 1](https://github.com/huyle333/PunchMonkeys/blob/master/Images/DemoPreview1.PNG "Demo Preview 1")
+![Demo Preview 2](https://github.com/huyle333/PunchMonkeys/blob/master/Images/DemoPreview2.PNG "Demo Preview 2")
